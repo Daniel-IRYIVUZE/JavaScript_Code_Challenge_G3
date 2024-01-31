@@ -13,3 +13,11 @@ function largestpalindromeproduct() {
             const product = i * j;
             if (palindrome(product) && product > largestpalindrome) {
                 largestpalindrome = product;
+		    }
+        }
+    }
+
+    return largestpalindrome;
+}
+
+console.log("Largest palindrome product of two 3-digit numbers:", largestpalindromeproduct());
