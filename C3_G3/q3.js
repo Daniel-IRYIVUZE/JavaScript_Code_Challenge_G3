@@ -13,5 +13,4 @@ function largestprimefactor(number) {
 
     return factor;
 }
-
 console.log("Largest prime factor of 600851475143:", largestprimefactor(600851475143));
